@@ -1,0 +1,40 @@
+/* Hintergrundfarbe der gesamten Seite auf #323232 setzen */
+body {
+    background-color: #323232;
+    font-family: 'Open Sans', sans-serif; /* Schriftart auf Open Sans setzen */
+}
+
+/* Die Tabelle soll eine weiße Border-Farbe haben */
+table {
+    border-collapse: separate; /* Trennlinien INNERHALB der Tabelle */
+    border-spacing: 0; /* Trennlinien INNERHALB der Tabelle */
+}
+
+/* Stil für Zellen (td und th) innerhalb der Tabelle */
+th, td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px; /* Innenabstand hinzufügen, um den Text von den Trennlinien zu trennen */
+}
+
+table {
+    border-collapse: collapse;
+  }
+  table td {
+    border: 3px solid white; 
+  }
+  table tr:first-child td {
+    border-top: 0;
+  }
+  table tr td:first-child {
+    border-left: 0;
+  }
+  table tr:last-child td {
+    border-bottom: 0;
+  }
+  table tr td:last-child {
+    border-right: 0;
+  }
+
